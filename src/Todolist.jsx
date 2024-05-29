@@ -41,12 +41,10 @@ const Todolist = () => {
     </button>
     </div>
     <ol className='list-group list-group-numbered'>
-    {todoLists.map((singleitem, index, array) => {
-        return <li className='list-group-item' key={index}>
-        {singleitem}
-        </li>
+    
     })}
   </ol>
+  
     </div>
     </div>
     </div>
